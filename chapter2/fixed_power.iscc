@@ -1,0 +1,9 @@
+R := { A[2, 8, 1] -> B[5]; A[2,8,1] -> B[6]; B[5] -> B[5]};
+
+R after R = R^2;
+R after R after R = R^3;
+
+R^-1;
+R after R^-1 = R^-2;
+R^-1 after R^-1 = R^-2;
+R^-2 after R^-1 = R^-3;
